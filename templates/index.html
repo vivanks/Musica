@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="jumbotron text-center" style="background-color: aliceblue">
+	<h1>Welcome to CATHECT</h1>
+	<p class="lead">This application is built on Python Framework </p>
+
+	
+</div>
+<ul class="list-group row align-items-center">
+			<form method="POST" action="">
+				<div class="form-group ">
+					<label style="font-size: 24px;">Song Name</label>
+					<input type="text" name="mid" class="form-control" value={{request.form.mid}}>
+					<label style="font-size: 24px;">Artist</label>
+					<input type="text" name="pass" class="form-control" value={{request.form.pass}}>
+				</div>
+				
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		
+</ul>
+
+
+{% endblock %}

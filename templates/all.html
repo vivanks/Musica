@@ -1,0 +1,29 @@
+{% extends 'layout.html'%}
+
+{%block body%}
+	<div class="jumbotron text-center">
+	<h1>Welcome to CATHECT</h1>
+	<p class="lead">This application is build on python frame work </p>
+	
+	
+	</div>
+	<table class="table table-striped" style="color: black;background-color: aliceblue">
+		<tr>
+			<th>ID</th>
+			<th>Song Title</th>
+			
+			
+			
+		</tr>
+			{% for i in range(song|length) %}
+			<tr>
+				<td>{{i}}</td>
+				<td>{{song[i]}}</td>
+	
+			</tr>
+			{%endfor%}
+	</table>
+
+
+	
+{%endblock%}
