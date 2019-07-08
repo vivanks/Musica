@@ -1,15 +1,15 @@
 # Musica - A music recomendation system
 
 
-This project is music prediction system that works on basis of scoring of each app by each user and hence merge it to form prediction.
+This project is music prediction system that works on the basis of scoring of each app by each user and hence merge it to form a prediction.
 
 It's able to predict songs based on
 
-  - User's likes and idlikes
-  - Based on song and it's genere
-  - User's listening pattern
-  - Author's hits
-  - Similar songs
+- User's likes and dislikes
+- Based on song and it's the genre
+- User's a listening pattern
+- Author's hits
+- Similar songs
 
 # Dataset used
 
